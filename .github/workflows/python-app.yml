@@ -3,10 +3,10 @@ name: Python application
 on:
   push:
     branches:
-      - master  # Change to 'main' if your default branch is named 'main'
+      - main  # Change to 'main' if your default branch is named 'main'
   pull_request:
     branches:
-      - master  # Change to 'main' if your default branch is named 'main'
+      - main  # Change to 'main' if your default branch is named 'main'
 
 jobs:
   build:
